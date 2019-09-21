@@ -1,0 +1,14 @@
+body{
+  background : black;
+  color : white;
+}
+.d{
+  color : white;
+  text-decoration : none;
+}
+.c{
+  font-size : 20px;
+  text-align : center;
+  color :white;
+  border : 1px solid white;
+}
