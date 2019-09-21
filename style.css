@@ -1,6 +1,7 @@
 body{
   background : black;
   color : white;
+  margin : 0;
 }
 .ref1{
   color : white;
@@ -13,7 +14,6 @@ body{
   border : 1px solid white;
   text-decoration : none;
   padding : 5px 10px;
-  margin-top : 20px;
 }
 
 .but {
@@ -37,6 +37,8 @@ body{
   border : 2px solid white;
   width : 150px;
   margin-top : 10px;
+  margin-left : 10px;
+  height : 180px;
 }
 
 .title {
@@ -48,7 +50,7 @@ body{
   width : 300px;
   border : 3px solid white;
   border-radius : 10px;
-  margin-top : 50px;
+  margin: 50px;
 }
 
 .uptli {
@@ -56,4 +58,19 @@ body{
 }
 .uptbox>h3 {
   color : lightskyblue;
+}
+
+#grid {
+  display : grid;
+  grid-template-columns : 150px 1fr;
+}
+
+#article {
+  margin : 10px 25px;
+
+  border : 2px solid white;
+}
+
+#moonimg {
+  margin-bottom : 50px;
 }

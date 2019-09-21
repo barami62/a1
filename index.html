@@ -5,27 +5,35 @@
     <meta name="viewport" content="width=device-width">
     <title>JaeYun King</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
+    <style>
+      h1 {
+        font-size : 50px;
+      }
+    </style>
   </head>
   <body>
     <div class ="title">
       <h1>XLab</h1>
     </div>
-    <div class="list1">
-      <ul>
-        <h2>
-        <li>Home</li>
-        <li><a class="ref1" href="content.html">Content</a></li>
-        <li>Contact</li>
-        <li><a class="ref1" href="about.html">About</a></li>
-        </h2>
-      </ul>
+    <div id = "grid">
+      <div class="list1">
+        <ul>
+          <h2>
+          <li>Home</li>
+          <li><a class="ref1" href="content.html">Content</a></li>
+          <li>Contact</li>
+          <li><a class="ref1" href="about.html">About</a></li>
+          </h2>
+        </ul>
+      </div>
+      <div id="article">
+        <center>
+          <p style="margin: 50px;">
+            <a class ="google" href="https://www.google.co.kr">GOOGLE</a>
+          </P>
+          <img id="moonimg" onclick="document.getElementById('moonimg')   .src='image/moon2.jpg'" width = "350px" src="image/moon.jpg">
+        </center>
+      </div>
     </div>
-    <center>
-      <p style="margin-top : 50px;">
-        <a class ="google" href="https://www.google.co.kr">GOOGLE</a>
-      </P>
-      <img id="moonimg" onclick="document.getElementById('moonimg').src='image/moon2.jpg'" width = "350px" src="image/moon.jpg">
-    </center>
-    <script src="script.js"></script>
   </body>
 </html>
