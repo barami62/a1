@@ -42,6 +42,14 @@ body{
   height : 180px;
 }
 
+.list2 {
+  border : 2px solid white;
+  width : 150px;
+  margin-top : 10px;
+  margin-left : 10px;
+  height : 80px;
+}
+
 .title {
   text-align : center;
   border-bottom : 2px solid white;
@@ -68,10 +76,21 @@ body{
     width : 100%;
   }
 
+  #table {
+    display:grid;
+    grid-template-rows:1fr 100px;
+    width : 100%;
+  }
+
   .list1 {
     margin-left:auto;
     margin-right:auto;
   }
+  .list2 {
+    margin-left:auto;
+    margin-right:auto;
+  }
+  
 
   #moonimg {
     margin-left:auto;
@@ -91,7 +110,7 @@ body{
   margin-bottom : 50px;
   width : 350px;
   height : auto;
-}
+  }
 }
 
 #article {
@@ -100,3 +119,12 @@ body{
   padding : 20px;
 }
 
+.but2 {
+  margin : auto;
+  vertical-align: middle;
+  width: 100%;
+  height : 100%;
+  font-size : 50px;
+  background-color: black;
+  color : white;
+}

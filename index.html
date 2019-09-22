@@ -17,16 +17,46 @@
       <h1>XLab</h1>
     </div>
     <div id = "grid">
-      <div class="list1">
-        <ul>
-          <h2>
-          <li>Home</li>
-          <li><a class="ref1" href="content.html">Content</a></li>
-          <li>Contact</li>
-          <li><a class="ref1" href="about.html">About</a></li>
-          </h2>
-        </ul>
+      <div id="table">
+        <div class="list1">
+          <ul>
+            <h2>
+              <li>Home</li>
+              <li><a class="ref1" href="content.html">Content</a></li>
+              <li>Contact</li>
+              <li><a class="ref1" href="about.html">About</a></li>
+            </h2>
+          </ul>
+        </div>
+        <div  class="list2">
+          <input class = 'but2' type="button" value="day" onclick="
+          var target = document.querySelector('body');
+          var targeta = document.querySelectorAll('.ref1');
+          var bor1 = document.querySelector('.title');
+
+            if(this.value === 'day') {
+              target.style.backgroundColor='white';
+              target.style.color='black';
+              for(var i = 0; i<targeta.length;i++) {
+                targeta[i].style.color='black';
+              }
+              this.style.backgroundColor ='white';
+              this.style.color='black';
+              this.value='night';
+
+            } else {
+              target.style.backgroundColor='black';
+              target.style.color='white';
+              for(var i = 0; i<targeta.length;i++) {
+                targeta[i].style.color='white';
+              }
+              this.style.backgroundColor ='black';
+              this.style.color='white';
+              this.value='day';
+            } ">
+        </div>
       </div>
+      
       <div id="article">
         <center>
           <p style="margin-bottom:50px;">
